@@ -1,4 +1,4 @@
-const num = [2, 3, 45, 6, 76, 1, 7, 8, 9, 51];
+const num = [52, 3, 45, 6, 76, 1, 7, 8, 9, 51];
 
 // using math.min() method
 
