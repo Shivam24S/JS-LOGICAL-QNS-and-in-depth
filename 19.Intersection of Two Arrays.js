@@ -1,3 +1,5 @@
+// In the given code set is used to store a unique values from arr2 then filter checks each element in arr1 to see if it is also exist in the set and keeping only those that matches. The output is an array of common elements from both arr1 and arr2.
+
 const num1 = [1, 2, 3, 4, 5, 6];
 
 const num2 = [2, 7, 8, 3, 4, 9];
