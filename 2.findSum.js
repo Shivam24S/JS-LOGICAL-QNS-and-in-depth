@@ -10,3 +10,17 @@ const findSum = (num) => {
 };
 
 findSum(num);
+
+// using another method
+
+const total = (num) => {
+  let sum = 0;
+
+  for (let i of num) {
+    sum += i;
+  }
+
+  console.log("total", sum);
+};
+
+total(num);

@@ -20,6 +20,7 @@ const findValue = (num) => {
       repetitiveVal.push(Number(key));
     }
   }
+  console.log("count", count);
   console.log("uniqueVal", uniqueVal);
   console.log("repetitiveVal", repetitiveVal);
 };
