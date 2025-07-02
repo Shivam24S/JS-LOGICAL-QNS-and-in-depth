@@ -25,10 +25,11 @@ const countFrequency = (num) => {
   let count = {};
 
   for (let i = 0; i < num.length; i++) {
-    if (count[num[i]]) {
-      count[num[i]] += 1;
+    let val = num[i];
+    if (count[val]) {
+      count[val] += 1;
     } else {
-      count[num[i]] = 1;
+      count[val] = 1;
     }
   }
   console.log("count using for loop", count);

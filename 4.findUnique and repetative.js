@@ -7,7 +7,7 @@ const findValue = (num) => {
 
   for (let n of num) {
     if (count[n]) {
-      count[n] = count[n] + 1;
+      count[n] += 1;
     } else {
       count[n] = 1;
     }
